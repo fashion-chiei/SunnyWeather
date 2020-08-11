@@ -5,6 +5,7 @@ import android.app.Application
 import android.content.Context
 
 class SunnyWeatherApplication : Application() {
+
     companion object {
         const val TOKEN = "Fl0vozeAyurmvRPO"
 
@@ -16,4 +17,5 @@ class SunnyWeatherApplication : Application() {
         super.onCreate()
         context = applicationContext
     }
+
 }
