@@ -1,3 +1,6 @@
+# 20200817 keystore account secret
+gradle.properties
+
 # Built application files
 *.apk
 *.aar
@@ -83,3 +86,5 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+将删除 libs/
+将删除 release/output-metadata.json
